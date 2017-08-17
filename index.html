@@ -1,34 +1,129 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Henry's website</title>
-      <link rel="stylesheet" type="text/css" href="index.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Henry Web site</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="header">
+	<div id="logo"><a href="#"><img src="images/logo.png"></a></div>
+	<ul id="main-menu">
+    	<li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#skills">Skills</a></li>
+        
+    </ul>
+</div>
 
 
-        <h1>ytruhyrjuyr</h1>
 
-        <div style="float:left;border-style: solid;">
-          <h3>things i liek</h3>
-          <ul >
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-          </ul>
+<!--Begin About Section-->
+    <div id="about">
+    	<h1>About Me</h1>
+        <ul id="top-social">
+            <li><a href="www.linkedin.com/in/HenryLopez" class="linkedin">LinkedIn</a></li>
+        </ul>
+        <div class="top-divider"></div>
+        <div class="content">
+        	<img src="images/henrylopez.jpeg" alt="Mountain View" style="width:304px;height:300px;">
+            <h2>My Name is Henry Lopez</h2>
+            <p>    Hi, my name is Henry Lopez, I am a student at City Arts and Tech High School in San Francisco, CA. Currently, I am a full time          student, and I'm attending a programs called Dev/mission. Dev/Mission is one of the greatest tech program in which I am developping my skills and knowlage in the tech field.  I want to study study Computer science amd become a web/app    developer.I am familiar with HTML,CSS and coding in JavaScript. Also I have some knowledge on the IT/Hardware field.I have assembled and disassembled computers and also I have worked with cables and wirless networks. In my free time, I like to play soccer with my friends and in my High school team. I also enjoy spending time with my family.</p> 
         </div>
-        <div style="float:right">
-          <h3>things i dont like</h3>
-          <ul >
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-            <li>fhgfkjds</li>
-          </ul>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End About Section-->
+<!--Begin skills section-->
+    <div id="skills">
+    	<h1>My skills</h1>
+       
+        <div class="top-divider"></div>
+        <div class="content">
+            <h2>My Name is Henry Lopez</h2>
+            <p>    Hi, my name is Henry Lopez, I am a student at City Arts and Tech High School in San Francisco, CA. Currently, I am a full time          student, and I'm attending a programs called Dev/mission. Dev/Mission is one of the greatest tech program in which I am developping my skills and knowlage in the tech field.  I want to study study Computer science amd become a web/app    developer.I am familiar with HTML,CSS and coding in JavaScript. Also I have some knowledge on the IT/Hardware field.I have assembled and disassembled computers and also I have worked with cables and wirless networks. In my free time, I like to play soccer with my friends and in my High school team. I also enjoy spending time with my family.</p> 
         </div>
-        <center>dogs</center>
-        <center><img src="https://images-na.ssl-images-amazon.com/images/G/01/img15/pet-products/small-tiles/23695_pets_vertical_store_dogs_small_tile_8._CB312176604_.jpg" alt=""></center
-    </body>
+    <div class="bottom-divider"></div> 
+    </div>
+<!--End if skills section-->
 
+<!--Begin Experience Section-->   
+    <div id="experience">
+    	<h1>Experience</h1>
+        <div class="top-divider"></div>
+        <div class="content">
+            <div class="col">
+            <h2>Dev/Missio</h2>
+            <p>Henry
+                Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry 
+ </p>
+            </div>
+            
+            <div class="col col-mid">
+            <h2>high school</h2>
+            <p>Henry
+                Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry  </p>
+            </div>
+            
+            <div class="col">
+            <h2>something here</h2>
+            <p>Henry
+                Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry Henry  </p>
+            </div>
+        </div>    
+        <div class="bottom-divider"></div>
+    </div>
+<!--End Experience Section-->
+
+
+
+<!--Begin Connect Section-->  
+    <div id="connect">
+    	<h1>Connect</h1>
+        <div class="top-divider"></div>
+        	<div class="content">
+            	<div id="form">
+                	<form action="#">
+                    	<span>Name</span>
+                        <input type="text" name="name" class="name" />
+                        <span>Email</span>
+                        <input type="text" name="email" class="email"/>
+                        <span>Message</span>
+                        <textarea class="message"></textarea>
+                        <input type="submit" name="submite" value="Submit" class="submit">
+                    </form>
+                </div>
+                <div id="social-footer">
+                	<h2>Follow Me:</h2>
+                    <p>Follow Me on LinkedIn </p>
+                    <ul id="sm-links">
+                        <li><a href="#" class="linkedin">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+<!--End Connect Section--> 
+
+
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</body>
 </html>
